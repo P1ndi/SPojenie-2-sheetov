@@ -1,0 +1,14 @@
+Int count = InputSheeter_0.SheetCount;
+
+for (Int i = 0; i< count; i++)
+   {
+   
+   OutputSheeter_0.addSheetInfo(InputSheeter_1.SheetInfo[i]) ;
+   OutputSheeter_0.addSheetInfo(InputSheeter_0.SheetInfo[i+1]) ;
+   
+   OutputSheeter_0.addSheetInfo(InputSheeter_0.SheetInfo[i]) ;
+   OutputSheeter_0.addSheetInfo(InputSheeter_1.SheetInfo[i+1]) ;
+   
+   i++;
+   
+   }
