@@ -1,0 +1,14 @@
+SheetInfo sheet;
+
+for (Int i = 0; i < InputSheeter_0.SheetCount; i++)
+   {
+   sheet = InputSheeter_0.SheetInfo[i];
+   OutputSheeter_0.addSheetInfo(sheet);
+  
+  for (Int j = 0; j < InputSheeter_1.SheetCount; j++)
+      sheet = InputSheeter_1.SheetInfo[i];
+   
+   OutputSheeter_0.addSheetInfo(sheet);
+   
+   
+   }
